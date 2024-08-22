@@ -15,3 +15,17 @@
 // values[0]=555
 // console.log(values)//?
 
+
+
+//Comparing OBjects
+let myobj = { 
+    id :1 , 
+    Task : 'grading Exam '
+}
+let myobj2 = { 
+    id :1 ,
+    Task : 'grading Exam' 
+}
+newObj = myobj
+console.log(`new obj === myobj is ${newObj === myobj}`);
+console.log(`myobj1 === myobj2 is ${newObj === myobj2}`);
