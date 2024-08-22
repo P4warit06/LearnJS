@@ -42,5 +42,8 @@ switch (ch) {
 
 
 }
-
-
+function parse(){
+const words=['Book', 'apple', 'Cat', 'Zebra']
+words.sort()
+console.log(words)//[ 'Book', 'Cat', 'Zebra', 'apple' ]
+}
