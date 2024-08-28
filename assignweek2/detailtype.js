@@ -1,14 +1,7 @@
 function detailedType(value) {
-  if (null === value) {
-    return null;
-  }
-  if (value === undefined) {
-    return undefined;
-  }
-  if (Array.isArray(value)) {
-    return "Array";
-  }
-
+  if (null === value)  return null;
+  if (value === undefined) return undefined;
+  if (Array.isArray(value)) return "Array";
   return typeof value;
 }
 console.log(detailedType("Hello world"));
