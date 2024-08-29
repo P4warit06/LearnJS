@@ -7,20 +7,16 @@ const values = [
   { id: 1, title: "Untitled" } // object literal
 ];
 values[values.length ] = 'goodbye world'
-console.log(values);
-console.log(values[0]); //first item 
-console.log(values[values.length-1]); // last item
+console.log(values)
+console.log(values[0]) //first item 
+console.log(values[values.length-1]) // last item
 
-console.log('__________________ for each element');
+console.log("__________________ for each element__________");
 
 // loop to check in array
 values.forEach(element => {
     console.log(element)    
 });
 
-console.log('============ for of  element');
+console.log("============ for of  element ===========");
     
-
-for (const item of values ) {
-    console.log(item) 
-}
