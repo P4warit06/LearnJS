@@ -1,5 +1,5 @@
 function getStringLengths(arr1) {
-  if (arr1 === undefined) return undefined
+  if (typeof arr1 === undefined) return undefined
     return arr1.map(str => str.length)
 }
 console.log(getStringLengths(['apple', 'banana', 'kiwi', 'orange'])) // 5 , 6 , 4  , 6
