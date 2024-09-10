@@ -21,10 +21,9 @@ function calculateFromSequence(sum1) {
   }
 }
 
-console.log("The Output FROM  cal sequence is "+calculateFromSequence([10, 4, 2]))
-
-
-
+console.log(
+  'The Output FROM  cal sequence is ' + calculateFromSequence([10, 4, 2])
+)
 
 function calculateFromSequenceHaveParentheses(sum2) {
   if (typeof sum2 === undefined) return undefined
@@ -33,14 +32,15 @@ function calculateFromSequenceHaveParentheses(sum2) {
   }
 }
 
-console.log('The Output from cal Parentheses is ' + calculateFromSequenceHaveParentheses([10, 2, 1]))
+console.log(
+  'The Output from cal Parentheses is ' +
+    calculateFromSequenceHaveParentheses([10, 2, 1])
+)
 
-
-function CalculateALL(calall) { 
-    if (typeof calall  === undefined) return undefined ; 
-    if (Array.isArray(calall))  {
-         return calall[0] *calall[1] -calall[2] / calall[3] 
-    }
+function CalculateALL(calall) {
+  if (typeof calall === undefined) return undefined
+  if (Array.isArray(calall)) {
+    return calall[0] * calall[1] - calall[2] / calall[3]
+  }
 }
-console.log("The output from calall " + CalculateALL([5,2,40,5]));
-
+console.log('The output from calall ' + CalculateALL([5, 2, 40, 5]))
