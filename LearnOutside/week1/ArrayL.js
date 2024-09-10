@@ -24,3 +24,5 @@ let colors = ['black', 'red', 'green', 'blue', 'yellow']
 colors[1] = 'White'
 // outputs have changed in Array
 console.log(colors)
+
+
