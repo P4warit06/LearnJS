@@ -1,1 +1,1 @@
-<img src =".image.png">
+![image](image.png)
