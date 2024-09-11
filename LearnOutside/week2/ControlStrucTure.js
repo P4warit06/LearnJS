@@ -37,4 +37,4 @@ function BalanceCalculator(Money) {
     throw Error('Not enough money to withdraw')
   }
 }
-console.log(BalanceCalculator([55500, 5550000]))
+console.log(BalanceCalculator([55500, 5400]))

@@ -30,46 +30,46 @@ else {
 // }
 function checkMonth(month) {
   if (typeof month !== 'number') return undefined
-  let monthName  ; 
-    switch (month)   {
+  let monthName
+  switch (month) {
     case 1:
       monthName = 'มกราคม'
-      break;
+      break
     case 2:
-      monthName   = 'กุมภาพันธ์'
-      break;
+      monthName = 'กุมภาพันธ์'
+      break
     case 3:
       monthName = 'มีนาคม'
-      break;
+      break
     case 4:
       monthName = 'เมษายน'
-      break ;
+      break
     case 5:
       monthName = 'พฤษภาคม'
-      break;
+      break
     case 6:
       monthName = 'มิถุนายน'
-      break;
+      break
     case 7:
       monthName = 'กรกฎาคม'
-      break;
+      break
     case 8:
       monthName = 'สิงหาคม'
-      break;
+      break
     case 9:
       monthName = 'กันยายน'
-      break;
+      break
     case 10:
-      monthName = 'ตุลาคม' 
-      break ;
+      monthName = 'ตุลาคม'
+      break
     case 11:
       monthName = 'พฤศจิกายน'
-      break;
+      break
     case 12:
-      monthName = 'ธันวาคม' 
-      break;
+      monthName = 'ธันวาคม'
+      break
     default:
-      monthName = 'เดือนที่ไม่ถูกต้อง' 
+      monthName = 'เดือนที่ไม่ถูกต้อง'
       break
   }
   return monthName
@@ -78,4 +78,3 @@ function checkMonth(month) {
 console.log(checkMonth(11))
 console.log(checkMonth(13))
 console.log(checkMonth(-1))
-

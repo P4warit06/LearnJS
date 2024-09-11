@@ -1,11 +1,3 @@
-const isPalindrome =() => { 
-    
-
-
-
-
-
-
-} 
-console.log(isPalindrome("racecar"));
-console.log(isPalindrome("hello"));
+const isPalindrome = () => {}
+console.log(isPalindrome('racecar'))
+console.log(isPalindrome('hello'))
