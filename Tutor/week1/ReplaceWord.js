@@ -7,9 +7,9 @@ console.log(ReplaceWord('I love JavaScript and Python', 'JavaScript', 'Python','
 */
 
 function replaceWord(sentence, oldWord, newWord) {
-    return sentence.replace(oldWord, newWord);
+  return sentence.replace(oldWord, newWord)
 }
 
-const sentence = 'I love JavaScript and Python';
-const newSentence = replaceWord(sentence, 'Python', 'HTML');
-console.log(newSentence); // Output: I love JavaScript and HTML
+const sentence = 'I love JavaScript and Python'
+const newSentence = replaceWord(sentence, 'Python', 'HTML')
+console.log(newSentence) // Output: I love JavaScript and HTML
