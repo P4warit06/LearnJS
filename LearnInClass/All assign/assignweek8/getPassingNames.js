@@ -13,6 +13,3 @@ const getPassingNames = (StudentNewArray) => {
 
 const passingNames = getPassingNames (studentScores)
 console.log(passingNames);
-
-
-
