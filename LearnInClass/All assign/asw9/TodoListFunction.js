@@ -19,10 +19,10 @@ function TodoList() {
     return todos.length
   }
   function findTodo(searchId) {
-    return todo.find((todo) => todo.id === searchId)
+    return todos.find((todo) => todo.id === searchId)
   }
   function findIndexTodo(searchId) {
-    return todo.findIndex((todos) => todo.id === searchId)
+    return todos.findIndex((todos) => todos.id === searchId)
   }
   function removeTodo(removeId) {
     const index = this.findIndexTodo(removeId) // ถ้าไม่พบรายการที่ตรงกันจะคืนค่า -1
@@ -39,15 +39,15 @@ function TodoList() {
     findTodo,
     findIndexTodo,
     removeTodo,
-    getTodo,
+    getTodo
   }
 }
-const { addTodo, findTodo, findIndexTodo, removeTodo, getTodo } = todoList
+
 const todoList = new TodoList()
 todoList.addTodo('Learn JavaScript')
 todoList.addTodo('Build a Todo App')
 
-console.log(todoList.getTodos()) // Logs the array of todos
+console.log(todoList.getTodo()) // Logs the array of todos
 console.log(todoList.findTodo(1)) // Finds the Todo with id 1
 todoList.removeTodo(1) // Removes the Todo with id 1
-console.log(todoList.getTodos()) // Logs the updated array
+console.log(todoList.getTodo()) // Logs the updated array
