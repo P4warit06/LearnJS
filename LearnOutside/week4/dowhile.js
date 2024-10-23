@@ -11,8 +11,10 @@ let count = 0;
     count++; 
     if(count == 201 ) break; 
 } */
-while (true) { 
-    if(count === 200 ) break  
-    count++;
-    console.log(String);
+do{
+    if(count === 20) break;
+    count++
+    console.log("count: " + count)
+}while (true) { 
+    console.log("loop End At"+count);
 }
