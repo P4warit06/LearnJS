@@ -1,5 +1,5 @@
 //destructuring object at parameter passing
-function getPrice({ price }) {
+function getPrice({ price  }) {
   return price
 }
 console.log(getPrice({ productId: 1001, productPrice: 50 })) //undefined
