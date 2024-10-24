@@ -13,9 +13,8 @@ function countVowels(str) {
 }
 function countVowels2(str) {
 //   console.log(str.match(/[aeiouAEIOU]/gi))
-  return str?.match(/[aeiouAEIOU]/gi)?.length ?? 0
+  return str?.match(/[aeiouAEIOU]/)?.length ?? 0
 }
-
 console.log(countVowels("hello")) //2
 console.log(countVowels("world")) //1
 console.log(countVowels("")) // 0
