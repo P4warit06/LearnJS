@@ -2,8 +2,10 @@
 const values = [5, 10, 15, 20]
 const x = [100, 200, 300]
 const nums = [...x, 1, 3, ...values]
-//[100,200,500,1,3,5,10,15,20]
+//[100,200,300,500,1,3,5,10,15,20]
 console.log(nums)
+console.log(nums[2]);
+
 //change value of nums
 nums[0] = 555
 console.log(nums)
