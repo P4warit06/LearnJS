@@ -13,3 +13,7 @@ console.log(divElement.getAttribute('style')); //color :red
 console.log(divElement.attributes[0].parentElement) //null
 console.log(divElement.attributes[0].parentNode) //null 
 console.log(divElement.attributes[0].ownerElement) 
+
+
+const pNewCode = document.createElement('p')
+const body
