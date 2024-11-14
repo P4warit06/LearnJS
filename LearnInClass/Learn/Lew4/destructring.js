@@ -10,6 +10,9 @@ console.log(n);
 console.log(n.length);
 
 
+
+
 const d =[555]
-const [...c] = d
+const [...c] = d // Spread แต่มันสร้าง New Array Name c ไม่ใช่อาเรย์เดิม
 console.log(d); // turn to array 
+

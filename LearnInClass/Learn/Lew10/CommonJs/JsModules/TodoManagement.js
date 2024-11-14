@@ -9,7 +9,7 @@ function todoManagement() {
   }
   function findIndexTodo(searchId) {
     return todos.findIndex((todo) => todo.id === searchId)
-  }
+  } 
   function removeTodo(removeId) {
     todos.splice(findIndexTodo(removeId), 1)
   }

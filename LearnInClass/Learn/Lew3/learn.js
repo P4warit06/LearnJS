@@ -39,8 +39,6 @@ switch (ch) {
     case 'B' :console.log('Good');
     break
     default : console.log('Fair');
-
-
 }
 function parse(){
 const words=['Book', 'apple', 'Cat', 'Zebra']
